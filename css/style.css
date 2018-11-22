@@ -1,4 +1,4 @@
-body                      {font: 15px/1.5 Arial, Helvetica,sans-serif;padding:0;margin:0;color: A1A1A1;}
+body                      {font: 15px/1.5 Varela Round;padding:0;margin:0;color: A1A1A1;}
 
 /* Global */
 .container  {width:80%;margin:auto;overflow:hidden;color: A1A1A1;}
@@ -55,6 +55,43 @@ header .highlight, header .current a{color:#ff6b18;font-weight:bold;
 header a:hover{color:#cccccc;font-weight:bold;
 }
 
+/*FORM */
+.contact{
+  background:#ff6b18;
+  color:#485e74;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+  margin-top:0
+}
+
+/* FORM STYLES */
+.contact form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+.contact h3 {text-align:center; font-size: 40px; color: #737373;}
+.contact form label{
+  display:block;font-size: 40px; color: #737373;
+}
+
+.contact form p{
+  margin:0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;
+}
+
+.contact form input, .contact form textarea{
+  width:80%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+}
+
+
+
 /* Showcase */
 #showcase{min-height:600px;background:url('../img/showcase.jpg') no-repeat 0 -400px;text-align:center;color:#FFFFFF;
 }
@@ -80,6 +117,8 @@ header a:hover{color:#cccccc;font-weight:bold;
   
 }
 
+#boxes h3{ text-align: center; font-size:25px;}
+
 #boxes1{margin-top:20px;min-height:600px;
   
 }
@@ -96,28 +135,26 @@ header a:hover{color:#cccccc;font-weight:bold;
 
 
 
-#boxes2{margin-top:20px;min-height:600px;
-}
-
+#boxes2{margin-top:20px;min-height:600px;margin-bottom: 40px}
+#boxes2 h3 {text-align: center; font-size:40px; color: #737373;}
+#boxes2 h4 { text-align: center; font-size:30px; color: #A1A1A1}
+#boxes2 p { text-align: center; font-size:30px; color: #ff6b18}
+#boxes2 h6 { text-align: center; font-size:30px; color: #A1A1A1}
 #boxes4 {margin-top:100px;text-align:center;min-height:300px;}
-
+#boxes4 h4 { text-align: center; font-size:30px; color: #737373}
 
 
 /* Sidebar */
-.email{float:center;width:100%;margin-top:10px;background-color:#AAAAAA
-  
-  
-}
 
-.email{width: auto;padding:5px;
-}
-
-input[type=submit] { padding:5px 15px;  background:#00b2af;  border:0 none;  cursor:pointer; -webkit-border-radius: 5px;border-radius: 5px;  }
+input[type=email]{ width: 200px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 14px; font-size: 15px; background-color: white;padding: 12px 20px 12px 40px;-webkit-transition: width 0.4s ease-in-out;transition: width 0.4s ease-in-out;}
+button[type=submit] { padding:5px 15px;  background:#00b2af;  border:0 none;  cursor:pointer; -webkit-border-radius: 5px;border-radius: 5px;  }
 input[type=text]{ width: 200px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 14px; font-size: 15px; background-color: white;padding: 12px 20px 12px 40px;-webkit-transition: width 0.4s ease-in-out;transition: width 0.4s ease-in-out;}
 #pulsante1 {outline: none;cursor: pointer;text-align: center;text-decoration: none;font: bold 25px Arial, Helvetica, sans-serif;color: #fff;padding: 10px 20px;border: solid 1px #0076a3;background: #ff6b18;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:250px; margin-top: 40px;}
 #pulsante2 {outline: none;cursor: pointer;text-align: center;text-decoration: none;font: bold 25px Arial, Helvetica, sans-serif;color: #fff;padding: 10px 20px;border: solid 1px #0076a3;background: #00b2af;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:350px; margin-top: 40px;}
 
+#contact {float:center; width:80%; margin: 0; background-color:#ff6b18;font-size:20px;
 
+}
 
 /* Main-col */
 article#main-col{float:left;width:65%;
@@ -158,11 +195,15 @@ footer{padding:20px;margin-top:20px;color:#ffffff;background-color:#e8491d;text-
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-bottom: 140px
 }
+
+
+.slideshow-container h2{ font-size: 18px; color: #A1A1A1;text-align: center;}
 
 /* Caption text */
 .text {
-  color: A1A1A1;
+  color: #A1A1A1;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -173,7 +214,7 @@ footer{padding:20px;margin-top:20px;color:#ffffff;background-color:#e8491d;text-
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: A1A1A1;
+  color: #A1A1A1;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -218,11 +259,11 @@ footer{padding:20px;margin-top:20px;color:#ffffff;background-color:#e8491d;text-
   .text {font-size: 11px}
 }
 
-#button4 {
-  position: relative;
+.contact form button {
+  
   display: inline-block;
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
-  font-size: 1.5em;
+  font-size: 40px;
   font-weight: 700;
   color: rgb(245,245,245);
   text-shadow: 0 -1px rgba(0,0,0,.1);
@@ -231,18 +272,21 @@ footer{padding:20px;margin-top:20px;color:#ffffff;background-color:#e8491d;text-
   padding: .3em 1em;
   outline: none;
   border: none;
-  border-radius: 3px;
-  background: #ff6b18 linear-gradient(#D65A14, #ff6b18);
+  border-radius: 10px;
+  background: #00b2af linear-gradient(#006967, #00b2af);
   box-shadow: inset #D65A14 0 -1px 1px, inset 0 1px 1px #D65A14, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
   -webkit-animation: pulsate 1.2s linear infinite;
   animation: pulsate 1.2s linear infinite;
+  width: 100%;
+  margin-left: 50%;
+  
 }
-#button4:hover {
+.contact form button:hover {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
   cursor: pointer;
 }
-#button4:active {
+.contact form button:active {
   top: 1px;
   color: #fff;
   text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;

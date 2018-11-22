@@ -8,6 +8,7 @@
   	<meta name="author" content="Cela Flavio">
     <title>YOUNIVERSITY | Welcome</title>
     <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
 	
 
   </head>
@@ -16,6 +17,7 @@
       <div class="container">
         <div id="logo">
           <h1><span class="highlight"><img src="img/logoyou.png" width="100px" height="48px"></h1>
+		  
         </div>
         <nav>
         
@@ -38,7 +40,7 @@
 		 <h2><p> <font color="#ff6b18">YOU</font><font color="#00b2af ">NIVERSITY</font><font color="#A1A1A1"> nasce per ottimizzare la rete 
 		  di condivisione di appunti e informazioni tra tutti gli studenti. </center> </font>
         </div>
-      <center><button id="pulsante1" onclick="scrollWin()">OTTIENI I TUOI APPUNTI</button></center>
+      <center><button id="pulsante1" onclick="scrollWin1()">OTTIENI I TUOI APPUNTI</button></center>
 		<center><img src="img/freccia.gif" width="150px"  height="100px" vspace="20px"><center>
 	  
 	  
@@ -48,7 +50,7 @@
 	
 	
 	<section id="boxes">
-     <font color="#A1A1A1"> <h1> Come funziona <font color="#ff6b18">YOU</font><font color="#00b2af ">NIVERSITY</font>? </h1> 
+     <font color="#737373"> <h1> Come funziona <font color="#ff6b18">YOU</font><font color="#00b2af ">NIVERSITY</font>? </h1> 
 	  <div class="container">
 	  
         <div class="box">
@@ -97,7 +99,7 @@
     </section>
 	
 <section id="boxes4">
-<h1>Cosa pensano gli studenti di Youniversity...</h1>
+<h4>Cosa pensano gli studenti di Youniversity...</h1>
 <br>
 <br>
 <br>
@@ -150,42 +152,31 @@
 	<section id="boxes2">
       <div class="container">
        <center><b><h3>Entra subito a far parte della nostra community!</h3></b>
-    	<h4><p>Stai per accedere gratis al nostro gruppo privato.</p>
-         <p>I primi 100 iscritti avranno GRATIS il PDF su tutte le domande d'esame dei professori. </p>
-        <p>Inserisci i tuoi dati per ottenere l'accesso immediato.</p></center>
+    	<h4>Stai per accedere gratis al nostro gruppo privato. </h4>
+         <b><p>I primi 100 iscritti avranno GRATIS il PDF su tutte le domande d'esame dei professori. </p></b>
+        <h6>Inserisci i tuoi dati per ottenere l'accesso immediato.</h6></center>
       </div>
-	  
-	<center><button  id="button4"> FAI CLICK PER OTTENERE L'ACCESSO IMMEDIATO! </button></center>
-	 
+	   
     </section>
 
-<div class="contact">
-        <h3>Email Us</h3>
-        <form>
-          <p>
-            <label>Name</label>
-            <input type="text" name="name">
-          </p>
-          <p>
-            <label>Company</label>
-            <input type="text" name="company">
-          </p>
-          <p>
-            <label>Email Address</label>
-            <input type="email" name="email">
-          </p>
-          <p>
-            <label>Phone Number</label>
-            <input type="text" name="phone">
-          </p>
-          <p class="full">
-            <label>Message</label>
-            <textarea name="message" rows="5"></textarea>
-          </p>
-          <p class="full">
-            <button>Submit</button>
-          </p>
-        </form>
+    <div class="contact">
+      <h3>COMPILA IL FORM QUI SOTTO!</h3>
+      {{msg}}
+      <form method="POST" action="send">
+        <p>
+          <label>NOME</label>
+          <input type="text" name="name">
+        </p>
+        
+        <p>
+          <label>E-MAIL</label>
+          <input type="email" name="email">
+        </p>
+	
+        <p class="full" vspace="20px">
+          <center><button type="submit">Submit</button></center>
+        </p>
+      </form>
 
 
 
@@ -219,6 +210,18 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+function scrollWin() {
+    window.scrollTo(0, 9200);
+}
+</script>
+
+<script>
+function scrollWin1() {
+    window.scrollTo(0, 3200);
 }
 </script>
 
