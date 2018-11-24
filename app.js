@@ -66,7 +66,7 @@ const output = `
         
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-        res.render('contact', {msg:'Messaggio inviato con successo! Ti risponderemo il prima possibile!'});
+        res.render('./thanku');
     });
 
 })
