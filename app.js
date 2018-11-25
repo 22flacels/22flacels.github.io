@@ -72,4 +72,4 @@ const output = `
 });
 
 
-app.listen(process.env.PORT || 80, () => console.log('server started...'));
+app.listen(process.env.PORT || 80, () => console.log('Server started...'));
