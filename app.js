@@ -69,8 +69,7 @@ const output = `
         res.render('./thanku');
     });
 
-})
+});
 
-console.log(process.env.PORT);
 
 app.listen(process.env.PORT || 80, () => console.log('server started...'));
