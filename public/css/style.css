@@ -103,8 +103,9 @@ header nav{float:right;margin-top:5px;
 
 
 
-#boxes2{margin-top:20px;min-height:500px; background-color:#D9D9D9;}
+#boxes2{margin-top:20px;min-height:500px; background-color:#FFFFFF;}
 #boxes2 h3 {text-align: center; font-size:40px; color: #737373;}
+#boxes2 h5 {text-align: center; font-size:45px; color: #ff6b18;}
 #boxes2 h4 { text-align: center; font-size:30px; color: #A1A1A1}
 #boxes2 p { text-align: center; font-size:20px; color: #ff6b18}
 #boxes2 h6 { text-align: center; font-size:25px; color: #737373}
