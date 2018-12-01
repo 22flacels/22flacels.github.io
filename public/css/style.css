@@ -63,7 +63,7 @@ header nav{float:right;margin-top:5px;
 #showcase{min-height:200px;background:url('../img/showcase.jpg') no-repeat 0 -400px;text-align:center;color:#FFFFFF;
 }
 
-#showcase2{min-height:300px;background:url('../img/appunti3.png') no-repeat ;text-align:center;color:#FFFFFF; background-size: 100% auto;
+#showcase2{min-height:200px;background:url('../img/appunti3.png') no-repeat ;text-align:center;color:#FFFFFF; background-size: 100% 300px;
 }
 
 
@@ -123,7 +123,7 @@ input[type=email]{ width: 60%; box-sizing: border-box; border: 2px solid #ff6b18
 button[type=submit] {outline: none;cursor: pointer;text-align: center;letter-spacing: 2px;text-decoration: none;font: bold 25px Varela Round;color: #fff;padding: 10px 20px;border: solid 2px #737373;background: #ff6b18;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:150px; margin-top: 20px;}
 input[type=text]{ width: 60%; box-sizing: border-box; border: 2px solid #ff6b18; border-radius: 14px; font-size: 15px; background-color: white;padding: 12px 20px 12px 40px;-webkit-transition: width 0.4s ease-in-out;transition: width 0.4s ease-in-out; display: block;margin: 0 auto;margin-top:30px;}
 #pulsante1 {outline: none;cursor: pointer;text-align: center;letter-spacing: 2px;text-decoration: none;font: bold 25px Varela Round;color: #fff;padding: 10px 20px;border: solid 1px #0076a3;background: #ff6b18;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:250px; margin-top: 40px;}
-#pulsante2 {outline: none;cursor: pointer;text-align: center;text-decoration: none;font: bold 25px Varela Round;color: #ff6b18;padding: 10px 20px;border: solid 1px #ff6b18;background: #ffffff;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:450px; margin-top: 100px;}
+#pulsante2 {outline: none;cursor: pointer;text-align: center;text-decoration: none;font: bold 20px Varela Round;color: #ff6b18;padding: 10px 20px;border: solid 1px #ff6b18;background: #ffffff;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:50%; margin-top: 50px;}
 #pulsante5 {outline: none;cursor: pointer;text-align: center;letter-spacing: 2px;text-decoration: none;font: 10px Varela Round;color: #ff6b18;padding: 10px 20px;background-color: white ;border: solid 1px  #ff6b18;-moz-border-radius: 20px;-webkit-border-radius: 20px; border-radius: 20px; margin-left:0px; width:150px; margin-right: 5px; }
 #contact {float:center; width:60%; margin: 0; background-color:#ff6b18;font-size:10px;font: Varela Round;
 
